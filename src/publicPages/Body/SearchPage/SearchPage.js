@@ -38,7 +38,6 @@ export default function SearchPage() {
         if (location.pathname.indexOf("/category") === 0) {
             setCategory(params.label)
             setSubCategory(params.sub)
-            let p = "vddv"
         }
     }, [params]);
     const categoryHandler = (value) => {
