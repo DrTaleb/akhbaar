@@ -1,0 +1,7 @@
+.news-chart-parent {
+    position: relative;
+    height: inherit;
+}
+.video-card-section{
+    overflow: hidden;
+}

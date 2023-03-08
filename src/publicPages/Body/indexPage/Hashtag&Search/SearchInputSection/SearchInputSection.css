@@ -1,0 +1,40 @@
+.news-letter-email-parent {
+    border-radius: 40px;
+    height: 1.2cm;
+}
+
+.news-letter-email-input {
+    border-radius: 40px;
+    border: 0;
+    width: 70%;
+    box-shadow: 0 .02rem .3rem rgba(0, 0, 0, .3) !important;
+    z-index: 1;
+    direction: rtl;
+    padding-right: 30px;
+    transition: .4s;
+}
+
+.news-letter-email-input:focus {
+    outline: 0;
+    box-shadow: 0 .02rem .5rem rgba(0, 0, 0, .4) !important;
+
+}
+
+.news-letter-email-btn {
+    padding-left: 20px;
+    border-radius: 40px;
+    border: 0;
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    background: var(--main-purple);
+    color: var(--content-background);
+    margin-right: -15%;
+    z-index: 0;
+}
+
+.news-letter-email-btn:hover {
+    background: var(--light-border-color);
+}

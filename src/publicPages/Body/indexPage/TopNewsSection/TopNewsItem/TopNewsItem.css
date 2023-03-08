@@ -1,0 +1,42 @@
+
+.trend-card {
+    position: relative;
+    display: block;
+    height: 90%;
+    border-radius: 9px;
+    color: var(--content-background);
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.trend-card:hover {
+    color: var(--content-background);
+}
+
+.trend-card:hover .trend-card-image {
+    transform: scale(1.1);
+    filter: blur(1px) brightness(60%);
+    transition: 1s;
+}
+
+.trend-card-image {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    transition: 2s;
+    filter: brightness(60%);
+}
+
+.trend-card-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+

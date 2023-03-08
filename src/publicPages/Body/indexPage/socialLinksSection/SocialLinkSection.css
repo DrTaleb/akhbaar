@@ -1,0 +1,14 @@
+.social-section {
+    padding: 5px;
+    border-radius: 9px;
+    transition: .4s;
+    filter: brightness(70%);
+    color: var(--text-color);
+}
+
+.social-section:hover {
+    /*box-shadow: 0 .02rem .3rem rgba(0, 0, 0, .2) !important;*/
+    filter: brightness(100%);
+    color: var(--text-color);
+
+}

@@ -1,0 +1,41 @@
+
+.news-chart {
+    position: absolute;
+    padding-top: 2cm;
+    top: 0;
+    bottom: 50%;
+    width: 95%;
+    overflow: scroll;
+    border-radius: 9px;
+    box-shadow: 0 .06rem .6rem rgba(0, 0, 0, .1) !important;
+
+}
+
+.news-chart-icon {
+    position: absolute;
+    background: var(--content-background);
+    z-index: 3;
+    top: 0;
+    left: 6%;
+    width: 1.5cm;
+    height: 1.5cm;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    box-shadow: 0 .4rem .4rem rgba(0, 0, 0, .1) !important;
+}
+
+.news-chart::-webkit-scrollbar-track {
+    border-radius: 4px;
+    background: var(--content-background);
+}
+
+.news-chart::-webkit-scrollbar {
+    width: 5px;
+    background: var(--content-background);
+}
+
+.news-chart::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: var(--news-chart-scroll-thumb);
+    box-shadow: 0 .02rem .3rem rgba(0, 0, 0, .1) !important;
+}

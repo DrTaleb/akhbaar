@@ -1,0 +1,12 @@
+.side-bar-sub-menu span{
+    color: var(--title-color);
+}
+.sub-hide{
+   display: none;
+}
+.side-bar-sub-menu{
+    transition: .3s;
+}
+.cursor-pointer{
+    cursor: pointer;
+}

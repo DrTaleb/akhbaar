@@ -1,0 +1,8 @@
+.main-logo {
+    height: 40px;
+}
+@media (max-width: 768px) {
+    .dir-sm-ltr{
+        direction: ltr;
+    }
+}

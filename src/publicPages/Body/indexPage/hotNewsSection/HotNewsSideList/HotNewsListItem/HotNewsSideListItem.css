@@ -1,0 +1,41 @@
+.news-chart-item-inner {
+    padding-top: 2%;
+    padding-right: 2%;
+    margin-left: 30%;
+}
+
+.news-chart-item {
+    position: relative;
+    overflow: hidden;
+    height: 110px;
+    box-shadow: 0 .02rem .3rem rgba(0, 0, 0, .1) !important;
+    border-radius: 6px;
+    padding: 10px 0;
+    transition: .3s;
+}
+
+.news-chart-item-title {
+    border-right: 2px var(--main-purple) solid;
+    padding-right: 4px;
+}
+
+.news-chart-item-text {
+    font-size: 16px;
+    line-height: 25px;
+    color: var(--news-chart-text);
+}
+
+.news-chart-item:hover {
+    box-shadow: 0 .02rem .3rem rgba(0, 0, 0, .1) !important;
+    transition: .3s;
+    transform: translateY(-4px);
+}
+
+.news-chart-img {
+    position: absolute;
+    height: 80%;
+    top: 10%;
+    width: 25%;
+    border-radius: 20px;
+    left: 3%;
+}
